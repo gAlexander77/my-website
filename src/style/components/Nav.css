@@ -1,0 +1,37 @@
+.nav-container {
+    display: flex;
+    /*background-color: black;*/
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.nav-title {
+    color: white;
+    margin-left: 2%;
+}
+
+.menu-container {
+    margin-left: auto;
+    margin-right: 2%;
+    align-self: center;
+}
+
+.nav-btn {
+    all: unset;
+    color: white;
+    /*padding: 5px 10px;
+    background-color: gray;
+    border-radius: 10px;*/
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+.nav-contact-btn {
+    all: unset;
+    color: black;
+    background-color: #D9D9D9;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    cursor: pointer;
+}

@@ -17,10 +17,11 @@ function Nav(props){
 
     return(
         <div className="nav-container">
+            <h1 className="nav-title">Alex Martinez</h1>
             <div className="menu-container">
-                <button onClick={skillsScroll}>Skills</button>
-                <button onClick={projectsScroll}>Projects</button>
-                <button onClick={contactScroll}>contact Me</button>
+                <button className="nav-btn" onClick={skillsScroll}>Skills</button>
+                <button className="nav-btn" onClick={projectsScroll}>Projects</button>
+                <button className="nav-contact-btn"onClick={contactScroll}>Contact Me</button>
             </div>
         </div>
     );
