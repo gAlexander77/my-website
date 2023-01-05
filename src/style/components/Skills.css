@@ -2,5 +2,38 @@
     height: 100%;
     width: 100%;
     background-color: #1A1A1A;
+    /*background-color:  green;*/
     color:white;
+}
+
+.skills-list-container {
+    padding-top: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.skills-title {
+    font-size: 48px;
+    left: -20vw;
+    margin-bottom: 40px;
+}
+
+.skills-list-header {
+    margin: 10px;
+    font-size: 38px;
+}
+
+.skills-list-of-skills {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(58, 58, 58);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.skills-list-of-skills p {
+    margin: 15px 10px;
+    font-size: 28px;
 }

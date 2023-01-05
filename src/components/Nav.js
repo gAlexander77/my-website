@@ -17,7 +17,7 @@ function Nav(props){
 
     return(
         <div className="nav-container">
-            <h1 className="nav-title">Alex Martinez</h1>
+            <h1 className="nav-title">Alexander Martinez</h1>
             <div className="menu-container">
                 <button className="nav-btn" onClick={skillsScroll}>Skills</button>
                 <button className="nav-btn" onClick={projectsScroll}>Projects</button>

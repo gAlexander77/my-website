@@ -21,7 +21,7 @@ function Intro(props){
                     <Typewriter
                         className="intro-hello"
                         onInit={(typewriter) => {
-                            typewriter.typeString("I'm Alex Martinez").start();
+                            typewriter.typeString("I'm Alexander Martinez").start();
                         }}
                     />
                 </div>
