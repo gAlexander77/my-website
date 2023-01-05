@@ -4,31 +4,35 @@
     background-color: #1A1A1A;
     /*background-color:  green;*/
     color:white;
+    display: flex;
+    align-items: center;
 }
 
 .skills-list-container {
-    padding-top: 18vh;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: transparent;
+    position: relative;
+    top: -7vh;
 }
 
 .skills-title {
     font-size: 48px;
     left: -20vw;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .skills-list-header {
-    margin: 10px;
+    margin: 20px;
     font-size: 38px;
 }
 
 .skills-list-of-skills {
     display: flex;
     flex-direction: row;
-    background-color: rgb(58, 58, 58);
+    /*background-color: rgb(58, 58, 58);*/
     padding: 5px 10px;
     border-radius: 10px;
 }

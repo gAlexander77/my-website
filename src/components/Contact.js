@@ -5,7 +5,7 @@ function Contact(props){
 
     return(
         <div className="contact-container">
-            Contact
+            Contact Me
         </div>
     );
 }

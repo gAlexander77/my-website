@@ -8,6 +8,7 @@
 .intro-text-container {
     margin-top: 20vh;
     margin-left: 10vw;
+    overflow: hidden;
 }
 
 .intro-text {
@@ -16,6 +17,6 @@
 }
 
 .intro-text-description {
-    margin-top: 4px;
+    margin-top: 7px;
     font-size: 18px;
 }
