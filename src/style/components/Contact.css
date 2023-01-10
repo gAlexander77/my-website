@@ -1,6 +1,28 @@
+a {
+    all: unset;
+}
+
 .contact-container {
     height: 100%;
     width: 100%;
     background-color: #1A1A1A;
+    /*background-color: blueviolet;*/
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    margin-top: 10vh;
+}
+
+.contact-list-of-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    all: unset;
 }
